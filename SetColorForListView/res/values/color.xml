@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#7f000000</color>
+    <color name="three_transparent">#26000000</color>
+    <color name="selector_pressed">#fff0f0f0</color>
+    <color name="write">#ffffff</color>
+    <color name="background">#fff6f6f6</color>
+    <color name="bg_gray">#fff6f6f6</color> 
+    <color name="login_center_black">#8f000000</color>
+  
+    
+    <!-- 首页的颜色 -->
+     <color name="navigation_kuang_gray">#B4B4B4</color>
+     <color name="navigation_foot_line">#C9C9C9</color>
+     <color name="search_hint">#8B8B8B</color>
+     <color name="home_head_bg">#F30000</color>
+     <color name="poi_address_tv">#B3B3B3</color>
+     <color name="poi_route">#6FAC45</color>
+     <color name="text_color_gray">#ff898989</color>
+     <color name="bg_search_history">#efefef</color>
+     <color name="navigation_foot">#7f6c503c</color>
+     <color name="wx_normal">#ccfebc09</color>
+     <color name="sc_normal">#ccff7800</color>
+     <color name="jlb_normal">#cc419310</color>
+     <color name="bx_normal">#cc814fb9</color>
+     <color name="cyh_normal">#cc01aabe</color>
+     <color name="tsj_normal">#cc2d6bd8</color>
+     <color name="wx_pressed">#D9febc09</color>
+     <color name="sc_pressed">#ccff7800</color>
+     <color name="jlb_pressed">#cc419310</color>
+     <color name="bx_pressed">#cc814fb9</color>
+     <color name="cyh_pressed">#cc01aabe</color>
+     <color name="tsj_pressed">#cc2d6bd8</color>
+     <color name="half_write">#7FFFFFFF</color>
+     <color name="three_write">#4CFFFFFF</color>
+     <color name="bg_button_user_login_pressed">#ffb600</color>
+     <color name="bg_button_user_login_normal">#ffc400</color>
+     <color name="two_write">#52ffffff</color> 
+    <!-- 首页的颜色 -->
+    
+    
+    <!-- 我的 -->
+     <color name="icon_border_inside_color">#fff7f2e9</color>
+     <color name="icon_border_outside_color">#260060ff</color>
+     <color name="user_center_main_color">#ff9454</color>
+     <color name="user_center_row_line_o">#99ff6000</color>
+     <color name="user_center_row_line_b">#9900ccff</color>
+     <color name="bg_row_b_normal">#3300ccff</color>
+     <color name="bg_row_b_pressed">#3317CFFD</color>
+     <color name="bg_row_o_normal">#19ffffff</color>
+     <color name="bg_row_o_pressed">#19ffffff</color>
+     <color name="bg_button_edit_normal">#00ccff</color>
+     <color name="bg_button_edit_preessed">#17CFFD</color>
+    <!--  我的 -->
+    
+   
+    <!-- 进度条的颜色 -->
+    <color name="progressbar_startColor">#FA0505</color>
+    <color name="progressbar_centerColor">#FB3B3B</color>
+    <color name="progressbar_endColor">#FC5F5F</color>
+    <!-- 进度条的颜色 -->
+    
+ 
+    <!-- 进入修理主页面的Indicator颜色的设置 -->
+    <color name="tab_text_normal">#696969</color>
+    <color name="tab_text_selected">#73bf40</color>
+    <color name="item_divider">#ffd7d7d7</color>
+    <color name="ptr">#50000000</color>
+    <color name="version_string">#4a4647</color>
+    <!--维修二级页面中的颜色设置开始  -->
+    
+    <color name="maintain">#7cc650</color>
+    <color name="cosmetology">#ffb400</color>
+    <color name="shop4s">#ff7800</color>
+    <color name="modify">#00b9e7</color>
+    <color name="oilandgas">#5082d5</color>
+    <color name="parking">#c384d5</color>
+    
+    <!-- 违章查询 -->
+     <color name="bg_spinner">#7F24d8f3</color>
+     <color name="search">#24d8f3</color>
+     <color name="search_line">#3324d8f3</color>
+    <!-- 违章查询 -->
+    
+    <!-- 查询结果集 -->
+    <color name="bg_result">#ffc231</color>
+    <color name="bg_view_line_1">#0596d9</color>
+    <color name="bg_view_line_2">#01abc5</color>
+    <color name="text_color_b">#0596d9</color>
+    <color name="text_color_g">#787878</color>
+    <!-- 查询结果集 -->
+    
+    <!--找维修页面中颜色开始  -->
+    <color name="bg_repair">#7cc650</color>
+    <color name="bg_repair_small">#56b58c</color>
+    <color name="bg_cosmetology">#ffb400</color>
+    <color name="bg_cosmetology_small">#ebd95f</color>
+    <color name="bg_shop4s">#ff7800</color>
+    <color name="bg_shop4s_small">#ed903d</color>
+    <color name="bg_modify">#00b9e7</color>
+    <color name="bg_modify_small">#54c9d3</color>
+    <!--找维修页面中颜色结束  -->
+    
+    
+    <!--快速检索的头部背景颜色  -->
+    <color name="quick_find_top">#0596d9</color>
+    <color name="quick_find_font_color">#a9a9a9</color>
+
+    <!--报修详情页面颜色 -->
+    <color name="press_submit">#ff7900</color>
+    <color name="nomal_submit">#ffc231</color>
+
+    <color name="my_repair_b">#24d8f3</color>
+    <color name="my_repair_tv">#787878</color>
+    
+    <color name="img_ll_bg">#d9d9d9</color>
+    <color name="bg_service_type_spinner">#d8d8d8</color>
+    
+    <color name="order_blue_state">#0596d9</color>
+    <color name="order_orange_state">#ff7900</color>
+    <color name="order_yellow_state">#ffbb14</color>
+    <color name="order_green_state">#419310</color>
+    <color name="order_gray_state">#9c9c9c</color>
+    <color name="order_blue_light_state">#01aabe</color>
+    
+    <color name="tab_select">#24d8f3</color>
+    <color name="tab_unselect">#4C24d8f3</color>
+    
+    <color name="addcar_select">#0F435A</color>
+    
+  
+    
+</resources>
