@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+      <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+          <!--现在不想要文字只需要图片android:text="首页"android:textSize="0sp"只有图片的时候居中显示   -->
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/BottomTabStyle"
+            android:checked="true"
+            android:textSize="0sp"
+            android:drawableTop="@drawable/btn_home_selector"
+            />
+
+        <!-- android:text="新闻中心" -->
+        <RadioButton
+            android:id="@+id/rb_news"
+            style="@style/BottomTabStyle"
+            android:textSize="0sp"
+            android:drawableTop="@drawable/btn_news_selector"
+             />
+
+        <!-- android:text="智慧服务" -->
+        <RadioButton
+            android:id="@+id/rb_smart"
+            style="@style/BottomTabStyle"
+            android:textSize="0sp"
+            android:drawableTop="@drawable/btn_smart_selector"
+             />
+
+        <!-- android:text="政务"   -->
+        <RadioButton
+            android:id="@+id/rb_gov"
+            style="@style/BottomTabStyle"
+            android:textSize="0sp"
+            android:drawableTop="@drawable/btn_gov_selector"
+           />
+
+        <!--android:text="设置"   -->
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/BottomTabStyle"
+            android:textSize="0sp"
+            android:drawableTop="@drawable/btn_setting_selector"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
