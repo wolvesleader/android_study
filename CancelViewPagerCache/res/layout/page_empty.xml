@@ -1,0 +1,26 @@
+<RelativeLayout
+       xmlns:android="http://schemas.android.com/apk/res/android" 
+       android:layout_width="fill_parent" 
+       android:layout_height="fill_parent" 
+       android:background="@android:color/white"
+       android:id="@+id/empty_search_notice">
+        
+    <TextView   
+        android:id="@+id/refresh_empty_search"  
+        android:padding="10.0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        style="@style/RefreshEmptySearch" 
+        android:text="没有内容哦~" 
+        android:textColor="#c9caca"
+        android:layout_centerInParent="true"/>
+    
+    <ImageView  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/nothing" 
+        android:layout_above="@id/refresh_empty_search"
+        android:layout_centerHorizontal="true" 
+        android:layout_marginBottom="10dip"/>
+    
+</RelativeLayout>
