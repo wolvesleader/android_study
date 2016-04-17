@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhy="http://schemas.android.com/apk/res/com.bai.cn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <com.bai.cn.view.ViewPagerIndicator
+        android:id="@+id/id_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar_bg_one_row"
+        android:orientation="horizontal"
+        zhy:item_count="4" >
+
+    </com.bai.cn.view.ViewPagerIndicator>
+
+    <com.bai.cn.view.MyViewPager
+        android:id="@+id/id_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.bai.cn.view.MyViewPager>
+    
+   
+
+</LinearLayout>

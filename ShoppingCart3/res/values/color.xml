@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#0000</color>
+    <color name="color_text_selected">#ff4447</color>
+    <color name="yym_gray">#666666</color>
+    <color name="light_black">#ff999999</color>
+    <color name="register_user_agreement_color">#888888</color>
+    <color name="top">#f8f8f8</color>
+    <color name="common_white">#ffffffff</color>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:id="@+id/status_detail_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_status_ded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_capture"
+                style="@style/RadioButtonStatusDetailTab"
+                android:checked="true"
+                android:text="折扣" />
+
+            <RadioButton
+                android:id="@+id/rb_past_result"
+                style="@style/RadioButtonStatusDetailTab"
+                android:text="优惠券" />
+           
+        </RadioGroup>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#f2f2f2"
+        android:layout_height="7dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_one_capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+  
+</LinearLayout>
+

@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 现在不想要文字只需要图片android:text="首页"android:textSize="0sp"只有图片的时候居中显示 -->
+
+        <RadioButton
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_setting_selector"
+            android:button="@null"
+            android:layout_marginRight="5dp"
+            android:drawableTop="@drawable/btn_home_selector"
+            android:gravity="center"
+            android:textColor="@drawable/vpi__tab_textcolor"
+            android:textSize="0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_setting_selector"
+            android:button="@null"
+            android:checked="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableTop="@drawable/btn_news_selector"
+            android:gravity="center"
+            android:textColor="@drawable/vpi__tab_textcolor"
+            android:textSize="0sp" />
+        <!-- android:text="新闻中心" -->
+
+        <RadioButton
+            android:id="@+id/rb_smart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_setting_selector"
+            android:button="@null"
+             android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableTop="@drawable/btn_smart_selector"
+            android:gravity="center"
+            android:textColor="@drawable/vpi__tab_textcolor"
+            android:textSize="0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_gov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_setting_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/btn_gov_selector"
+            android:gravity="center"
+             android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@drawable/vpi__tab_textcolor"
+            android:textSize="0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/home_setting_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/btn_setting_selector"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="@drawable/vpi__tab_textcolor"
+            android:textSize="0sp" />
+    </RadioGroup>
+
+</RelativeLayout>
