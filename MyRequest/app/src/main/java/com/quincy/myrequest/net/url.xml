@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<url>
+    <Node
+        Key="getWeetInfo"
+        Expires="300"
+        NetType="get"
+        Url="http://www.baidu.com"
+        />
+
+
+</url>
